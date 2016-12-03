@@ -21,7 +21,7 @@ conda create -n chemotaxis_env --file requirements.txt
 **NOTE:** These instructions are written for Ubuntu, however they should work with minimal modifications for other operating systems.
 Create and activate a virtual environment:
 ```
-virtualenv venv
+virtualenv -p python3 venv
 source venv/bin/activate
 ```
 Install all of the required packages for the simulator:
